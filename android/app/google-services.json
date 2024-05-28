@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "814069529758",
+    "project_id": "ui275-dd1cf",
+    "storage_bucket": "ui275-dd1cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814069529758:android:236142352c323523bdcf8f",
+        "android_client_info": {
+          "package_name": "com.example.practice_ui_27"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_EOPrGh19E0AA5JF72Cmynj00tjRYFo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
