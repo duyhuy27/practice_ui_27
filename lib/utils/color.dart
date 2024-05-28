@@ -6,3 +6,4 @@ const Color greyColor = Color(0xFFBCBCBC);
 const Color textColor = Color(0xFF231F20);
 const Color greyBorderColor = Color(0xFFEBEBEB);
 const Color dividerColor = Color(0xFFF4F5FA);
+const Color iconColor = Color(0xFF707070);

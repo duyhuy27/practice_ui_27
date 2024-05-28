@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:practice_ui_27/bloc/auth/auth_bloc.dart';
 import 'package:practice_ui_27/page/auth/login_page.dart';
-import 'package:practice_ui_27/page/home/home_page.dart';
 import 'package:practice_ui_27/repository/user_repository.dart';
+import 'package:practice_ui_27/res/widget/bottom_navigation.dart';
 
 import 'firebase_options.dart';
 
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
             home: StreamBuilder<User?>(
               builder: (context, snapshot) {
                 if (snapshot.hasData) {
-                  return const HomePage();
+                  return const BottomNavigationBarCustom();
                 }
                 return const LoginPage();
               },
