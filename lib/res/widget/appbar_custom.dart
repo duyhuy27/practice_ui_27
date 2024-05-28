@@ -54,7 +54,7 @@ class _AppBarCustomState extends State<AppBarCustom> {
         ),
       ),
       elevation: 0.0,
-      title: Image.asset("assets/images/logo.png"), // Remove AppBar shadow
+      title: Image.asset("assets/images/logo.png"),
     );
   }
 }
